@@ -1,6 +1,8 @@
 {
-  "name": "svelte-app",
+  "name": "slackers",
+  "description": "A official guild website for slackers",
   "version": "1.0.0",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "build": "rollup -c",
