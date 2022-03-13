@@ -1,6 +1,6 @@
 <footer>
 	<h3>How to join?</h3>
-	<p>Click the join button to join our official discord server and go to the <strong>#apply-to-slackers</strong> channel</p>
+	<p>Click the <strong>Join now</strong> button to join our official discord server and go to the <strong>#apply-to-slackers</strong> channel</p>
 	<button on:click={() => window.open('https://discord.gg/74uEjq4rZE', '_blank')}>Join now</button>
 </footer>
 
@@ -10,7 +10,6 @@
 		color: white;
 		padding: 32px;
 		text-align: center;
-		margin-top: 16px;
 	}
 
 	button {
