@@ -12,7 +12,8 @@
 		justify-content: start;
 		align-items: center;
 		padding: 8px;
-		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		background-color: #2c2f33;
+		color: white;
 	}
 
 	.logo {
