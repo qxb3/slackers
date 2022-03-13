@@ -2,8 +2,8 @@
 </script>
 
 <header>
-		<img class='logo' src='/images/logo.png' alt='slackers logo' />
-		<div class='name'>Slackers</div>
+	<img class='logo' src='/images/logo.png' alt='slackers logo' />
+	<div class='name'>Slackers</div>
 </header>
 
 <style>
