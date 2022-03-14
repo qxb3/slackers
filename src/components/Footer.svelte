@@ -5,6 +5,9 @@
 		<button on:click={() => window.open('https://discord.gg/74uEjq4rZE', '_blank')}>Join now</button>
 	</div>
 	<div class='links-container'>
+		<a href='https://discord.gg/74uEjq4rZE' target='_blank'>
+			<img src='https://cdn-icons-png.flaticon.com/512/5968/5968898.png' alt='discord server' />
+		</a>
 		<a href='https://github.com/qxb3/slackers' target='_blank'>
 			<img src='https://cdn-icons-png.flaticon.com/512/25/25231.png' alt='repository' />
 		</a>
@@ -18,7 +21,7 @@
 	}
 
 	.content-container {
-		padding: 32px 32px 12px 32px;
+		padding: 32px 32px 8px 32px;
 		text-align: center;
 	}
 
@@ -38,8 +41,8 @@
 	}
 
 	img {
-		margin: 8px;
-		width: 40px;
-		height: 40px;
+		margin: 12px;
+		width: 32px;
+		height: 32px;
 	}
 </style>
