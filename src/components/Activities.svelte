@@ -8,7 +8,13 @@
 	<div class='item'>
 		<img src='/images/activities/celebrate.png' alt='activity' />
 		<div class='item-description'>
-			<p>Want some cool screenshots? Join now xd</p>
+			<p>Want some cool screenshots? join now xd</p>
+		</div>
+	</div>
+	<div class='item'>
+		<img src='/images/activities/giveaways.png' alt='activity' />
+		<div class='item-description'>
+			<p>We sometimes do a  public or guild giveaways The prizes are golds, items, scrolls and more!</p>
 		</div>
 	</div>
 </div>
@@ -16,15 +22,13 @@
 <style>
 	.activities {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-around;
 	}
 
 	.item {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 		margin: 16px;
-		max-width: 362px;
 		flex-basis: 100%;
-		flex-grow: 0;
 	}
 
 	.activities .item img {
