@@ -2,12 +2,13 @@
 	<div class='content-container'>
 		<h3>How to join?</h3>
 		<p>Click the <strong>Join now</strong> button to join our official discord server and go to the <strong>#apply-to-slackers</strong> channel</p>
-		<button on:click={() => window.open('https://discord.gg/74uEjq4rZE', '_blank')}>Join now</button>
+		<button class='join' on:click={() => window.open('https://discord.gg/74uEjq4rZE', '_blank')}>
+			<!--<img src='https://cdn-icons-png.flaticon.com/512/5968/5968898.png' alt='' />-->
+			<img src='/images/discord.png' alt='discord' />
+			<p>Join now</p>
+		</button>
 	</div>
 	<div class='links-container'>
-		<a href='https://discord.gg/74uEjq4rZE' target='_blank'>
-			<img src='https://cdn-icons-png.flaticon.com/512/5968/5968898.png' alt='discord server' />
-		</a>
 		<a href='https://github.com/qxb3/slackers' target='_blank'>
 			<img src='https://cdn-icons-png.flaticon.com/512/25/25231.png' alt='repository' />
 		</a>
@@ -25,14 +26,30 @@
 		text-align: center;
 	}
 
-	button {
-		margin-top: 8px;
-		padding: 14px;
+	.join {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		margin: 24px auto 0 auto;
+		padding: 6px;
 		background-color: #121212;
 		border-width: 0;
 		color: white;
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-		transition: 0.6;
+		cursor: pointer;
+	}
+
+	.join > * {
+		margin: 6px;
+	}
+
+	.join img {
+		width: 28px;
+		height: 28px;
+	}
+
+	.join:hover {
+		background-color: #404040;
 	}
 
 	.links-container {
@@ -40,7 +57,7 @@
 		justify-content: end;
 	}
 
-	img {
+	.links-container a img {
 		margin: 12px;
 		width: 32px;
 		height: 32px;
