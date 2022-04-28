@@ -1,6 +1,4 @@
 <script>
-	import 'bulma/css/bulma.css'
-
 	import Navbar from './components/Navbar.svelte'
 
 	import Home from './routes/home/index.svelte'
