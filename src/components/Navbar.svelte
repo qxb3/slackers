@@ -20,6 +20,13 @@
 
 	<div class="navbar-menu" class:is-active={isActive}>
 		<div class="navbar-end">
+			<a on:click={close} href="/" class="icon-text navbar-item">
+				<span class="icon">
+					<i class="fa fa-home"></i>
+				</span>
+				<span>Home</span>
+			</a>
+
 			<a on:click={close} href="/rules" class="icon-text navbar-item">
 				<span class="icon">
 					<i class="fa fa-scroll"></i>
