@@ -9,7 +9,7 @@
 	const { shamans } = membersJson.members
 </script>
 
-<div class="members">
+<div class="container members">
 	<div class="group">
 		<h1 class="title is-size-4 mb-3">Leaders</h1>
 		<ol>

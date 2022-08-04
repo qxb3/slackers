@@ -1,4 +1,4 @@
-<div class="rules">
+<div class="container rules">
 	<h1 class="title">Slackers Rules</h1>
 	<p class="subtitle">Before joining into slackers you must keep in mind these rules.</p>
 	<ol>
