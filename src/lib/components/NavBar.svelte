@@ -18,7 +18,10 @@
 
 <AppBar regionRowMain="container">
   <svelte:fragment slot="lead">
-    <img src="/logo.png" alt="Logo" width="38" height="38" />
+    <a class="btn flex items-center justify-center" href="/">
+      <img src="/logo.png" alt="Logo" width="40" height="auto" />
+      <h1 class="h1 text-2xl text-primary-400">Slackers</h1>
+    </a>
   </svelte:fragment>
 
   <svelte:fragment slot="trail">
