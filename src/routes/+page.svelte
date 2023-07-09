@@ -15,6 +15,10 @@
   ]
 </script>
 
+<svelte:head>
+  <title>Join Slackers</title>
+</svelte:head>
+
 <div class="container p-4">
   <div class="text-center">
     <h1 class="h1 text-5xl md:text-7xl mt-6 text-primary-400 underline underline-offset-4 decoration-2">Slackers</h1>
