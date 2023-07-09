@@ -12,7 +12,7 @@
     <ul class="text-lg space-y-1 w-full">
       {#each links as link}
         <li>
-          <a class="block py-2 px-1" href={link.href}>
+          <a on:click={closeMenu} class="cursor-pointer block py-2 px-1" href={link.href}>
             <i class={link.icon}></i>
             {link.text}
           </a>
