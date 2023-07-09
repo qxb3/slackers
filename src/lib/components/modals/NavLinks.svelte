@@ -35,7 +35,7 @@
   <div class="w-[97%] h-[0.1px] bg-white mx-auto my-4"></div>
 
   <div>
-    <a href="/" class="btn variant-filled-primary">
+    <a href="https://discord.gg/xKwBfkFkPw" class="btn variant-filled-primary">
       <span>Join Now</span>
       <span>
         <i class="fas fa-arrow-right"></i>

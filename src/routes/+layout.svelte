@@ -6,6 +6,7 @@
 
   import NavBar from '$lib/components/NavBar.svelte'
   import NavLinks from '$lib/components/modals/NavLinks.svelte'
+  import Footer from '$lib/components/Footer.svelte'
 
   import '@skeletonlabs/skeleton/styles/skeleton.css'
   import '../theme.css'
@@ -31,5 +32,7 @@
 
   <slot />
 
-  <svelte:fragment slot="footer">(footer)</svelte:fragment>
+  <svelte:fragment slot="footer">
+    <Footer />
+  </svelte:fragment>
 </AppShell>
