@@ -34,9 +34,9 @@
     </a>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5 gap-4">
     {#each showcases as showcase}
-      <div class="card bg-surface-300 text-center p-3 m-2 h-full">
+      <div class="card bg-surface-300 text-center p-3 h-full">
         <img src="/screenshots/{showcase.image}" alt="Showcase" />
         <p class="mt-3">{showcase.text}</p>
       </div>
