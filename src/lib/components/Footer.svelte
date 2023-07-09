@@ -8,13 +8,13 @@
     <ul class="flex items-center justify-center space-x-3 mt-4">
       <li>
         <a href="https://github.com/qxb3/slackers" target="_blank">
-          <li class="fab fa-github"></li>
+          <li class="fab fa-github fa-lg"></li>
         </a>
       </li>
 
       <li>
         <a href="https://discord.gg/xKwBfkFkPw" target="_blank">
-          <li class="fab fa-discord"></li>
+          <li class="fab fa-discord fa-lg"></li>
         </a>
       </li>
     </ul>
