@@ -1,11 +1,6 @@
 <script>
   import { modalStore } from '@skeletonlabs/skeleton'
-
-  const links = [
-    { href: '/', text: 'Home', icon: 'fas fa-home' },
-    { href: '/members', text: 'Members', icon: 'fas fa-user-group' },
-    { href: '/rules', text: 'Rules', icon: 'fas fa-scroll' },
-  ]
+  import { links, discordLink } from '$lib/vars.js'
 
   function closeMenu() {
     modalStore.close()
@@ -35,7 +30,7 @@
   <div class="w-[97%] h-[0.1px] bg-white mx-auto my-4"></div>
 
   <div>
-    <a href="https://discord.gg/xKwBfkFkPw" class="btn variant-filled-primary">
+    <a href={discordLink} class="btn variant-filled-primary">
       <span>Join Now</span>
       <span>
         <i class="fas fa-arrow-right"></i>

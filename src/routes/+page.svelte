@@ -1,4 +1,6 @@
 <script>
+  import { discordLink } from '$lib/vars.js'
+
   const showcases = [
     {
       image: 'party.png',
@@ -24,7 +26,7 @@
     <h1 class="h1 text-5xl md:text-7xl mt-6 text-primary-400 underline underline-offset-4 decoration-2">Slackers</h1>
     <h2 class="h2 mt-1">The guild that just wants to slack.</h2>
 
-    <a href="https://discord.gg/xKwBfkFkPw" class="btn btn-lg variant-filled-primary mt-3">
+    <a href={discordLink} class="btn btn-lg variant-filled-primary mt-3">
       <span>Join Now</span>
       <span>
         <i class="fas fa-arrow-right"></i>

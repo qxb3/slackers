@@ -1,11 +1,6 @@
 <script>
   import { AppBar, modalStore } from '@skeletonlabs/skeleton'
-
-  const links = [
-    { href: '/', text: 'Home', icon: 'fas fa-home' },
-    { href: '/members', text: 'Members', icon: 'fas fa-user-group' },
-    { href: '/rules', text: 'Rules', icon: 'fas fa-scroll' },
-  ]
+  import { links } from '$lib/vars.js'
 
   function openMenu() {
     modalStore.trigger({
