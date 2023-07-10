@@ -71,6 +71,8 @@
 
 <svelte:head>
   <title>Slackers Rules</title>
+  <meta property="og:title" content="Slackers Rules" />
+  <meta property="og:description" content="The slackers rules" />
 </svelte:head>
 
 <div class="container p-4">

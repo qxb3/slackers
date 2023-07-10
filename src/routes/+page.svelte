@@ -19,6 +19,8 @@
 
 <svelte:head>
   <title>Join Slackers</title>
+  <meta property="og:title" content="Join Slackers" />
+  <meta property="og:description" content="Join and slack!" />
 </svelte:head>
 
 <div class="container p-4">

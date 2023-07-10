@@ -4,6 +4,8 @@
 
 <svelte:head>
   <title>Slackers Members List</title>
+  <meta property="og:title" content="Slackers Members List" />
+  <meta property="og:description" content="The members list" />
 </svelte:head>
 
 <div class="container p-4">
