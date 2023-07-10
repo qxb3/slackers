@@ -1,3 +1,5 @@
-# Slackers
+# slackers
 
-A official guild website for slackers
+Slackers guild website
+
+Link: [https://join-slackers.tk](join-slackers.tk)
