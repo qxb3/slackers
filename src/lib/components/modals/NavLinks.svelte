@@ -22,7 +22,7 @@
 
     <div>
       <button on:click={closeMenu} class="btn btn-sm">
-        <i class="fas fa-x"></i>
+        <i class="fas fa-times"></i>
       </button>
     </div>
   </div>
